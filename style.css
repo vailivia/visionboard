@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "asar" , serif;
+}
+.cabecalho {
+    background-color: #fff0f8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.cabecalho-link {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #A60303;
+    font-size: 18px;
+    font-weight: 500;
+}
+.intro {
+    align-items: center;
+    padding-top: 30px;
+}
+.titulo {
+    text-align: center;
+    color: #A60303;
+}
+.versiculo {
+    text-align: center;
+    color: #D97386;
+    font-family: "Delius Swash Caps", cursive;
+}
+.vision {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+.roll {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.vision img {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+.vision p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #A60303;
+    font-size: 20px;
+}
+.rodape {
+    background-color: #fff0f8;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    align-items: center;
+}
+.rodapecont {
+    align-items: center;
+}
